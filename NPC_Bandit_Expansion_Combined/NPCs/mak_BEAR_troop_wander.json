@@ -1,0 +1,37 @@
+[
+  {
+    "type": "npc",
+    "id": "mak_bear_trooper_wander",
+    "name_suffix": "BEAR Trooper",
+    "//": "If Mission set to 0, then they walk around.",
+    "class": "mak_bear_trooper_wander_npc",
+    "attitude": 0,
+    "mission": 0,
+    "chat": "TALK_fo_bear_trooper_start",
+    "faction": "fac_fo_BEAR"
+  },
+  {
+    "type": "npc_class",
+    "id": "mak_bear_trooper_wander_npc",
+    "name": { "str": "bear Trooper" },
+    "job_description": "Is a soldier representing United Security.",
+    "traits": [ { "group": "NPC_starting_traits" }, { "group": "Hair_Any" } ],
+    "common": false,
+    "bonus_str": { "rng": [ -3, 3 ] },
+    "bonus_dex": { "rng": [ -3, 3 ] },
+    "bonus_int": { "rng": [ -3, 3 ] },
+    "bonus_per": { "rng": [ -3, 3 ] },
+    "worn_override": "NC_bearTROOP_worn",
+    "carry_override": "NC_bearTROOP_carry",
+    "weapon_override": "NC_bearTROOP_weapon",
+    "skills": [
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 0, 1 ] } },
+      { "skill": "unarmed", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "rifle", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "survival", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "gun", "bonus": { "rng": [ 1, 3 ] } }
+    ]
+  }
+]

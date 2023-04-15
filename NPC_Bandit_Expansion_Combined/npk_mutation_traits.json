@@ -1,0 +1,11 @@
+[
+  {
+    "type": "mutation",
+    "id": "npk_npc_balance_a",
+    "name": { "str": "Zone Denizen" },
+    "points": 0,
+    "description": "This person has lived in the New England Exclusion Zone for a relatively short time, and is still not entirely hardened to its struggles.",
+    "valid": false,
+    "hp_modifier": -0.25
+  }
+]

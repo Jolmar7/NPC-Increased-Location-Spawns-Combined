@@ -1,0 +1,107 @@
+[
+    {
+    "id": "mx_NIL_lonebandit_encounter",
+    "type": "map_extra",
+    "name": { "str": "Lone Bandit Encounter" },
+    "description": "An encounter with a bandit.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_NIL_lonebandit_encounter" },
+    "sym": "S",
+    "color": "red"
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_NIL_lonebandit_encounter",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        "A": [ "t_dirt" ],
+        ",": [ "t_region_groundcover" ]
+      },
+      "furniture": {
+        "F": [ "f_rubble_rock" ]
+      },
+      "place_npcs": [
+                     { "class": "wandering_bandit", "x": [7, 15], "y": [7, 15]}
+                ]
+    }
+  },
+  {
+    "id": "mx_NIL_twobandit_encounter",
+    "type": "map_extra",
+    "name": { "str": "Dual Bandit Encounter" },
+    "description": "An encounter with two bandits.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_NIL_twobandit_encounter" },
+    "sym": "S",
+    "color": "red"
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_NIL_twobandit_encounter",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        "A": [ "t_dirt" ],
+        ",": [ "t_region_groundcover" ]
+      },
+      "furniture": {
+        "F": [ "f_rubble_rock" ]
+      },
+      "place_npcs": [
+                     { "class": "wandering_bandit", "x": [7, 15], "y": [7, 15]},
+                     { "class": "wandering_bandit", "x": [7, 15], "y": [7, 15]}
+                ]
+    }
+  }
+]

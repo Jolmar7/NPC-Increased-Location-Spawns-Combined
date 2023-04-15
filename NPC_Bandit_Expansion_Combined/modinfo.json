@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "npc_increased_location_comb",
+    "name": "NPC Increased Location Spawns Combined",
+    "authors": [ "Jolmar7" ],
+    "maintainers": [ "Jolmar7" ],
+    "description": "Attempts to drastically increase the amount of NPCs present in the game at any given time.",
+    "category": "content",
+    "dependencies": [ "bn", "GOV_BANDITS_KAI_R" ]
+  }
+]

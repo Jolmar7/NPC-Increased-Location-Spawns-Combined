@@ -1,0 +1,57 @@
+[
+    {
+    "id": "mx_NIL_natguard_encounter",
+    "type": "map_extra",
+    "name": { "str": "National Guard Scav Encounter" },
+    "description": "An encounter with a National Guard Squad.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_NIL_natguard_encounter" },
+    "sym": "S",
+    "color": "red"
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_NIL_natguard_encounter",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        "A": [ "t_dirt" ],
+        ",": [ "t_region_groundcover" ]
+      },
+      "furniture": {
+        "F": [ "f_rubble_rock" ]
+      },
+      "place_npcs": [
+                     { "class": "npk_natguard", "x": [7, 15], "y": [7, 15]},
+                     { "class": "npk_natguard", "x": [7, 15], "y": [7, 15]},
+                     { "class": "npk_natguard", "x": [7, 15], "y": [7, 15]},
+                     { "class": "npk_natguard", "x": [7, 15], "y": [7, 15]}
+                ]
+    }
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "mx_NIL_one_scav_encounter",
+    "type": "map_extra",
+    "name": { "str": "Single Scav Encounter" },
+    "description": "An encounter with a single scav.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_NIL_one_scav_encounter" },
+    "sym": "S",
+    "color": "red"
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_NIL_one_scav_encounter",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        "A": [ "t_dirt" ],
+        ",": [ "t_region_groundcover" ]
+      },
+      "furniture": {
+        "F": [ "f_rubble_rock" ]
+      },
+      "place_npcs": [
+                     { "class": "npk_scav", "x": [7, 15], "y": [7, 15]}
+                ]
+    }
+  },
+  {
+    "id": "mx_NIL_two_scav_encounter",
+    "type": "map_extra",
+    "name": { "str": "Double Scav Encounter" },
+    "description": "An encounter with a two scavs.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_NIL_two_scav_encounter" },
+    "sym": "S",
+    "color": "red"
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_NIL_two_scav_encounter",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        "A": [ "t_dirt" ],
+        ",": [ "t_region_groundcover" ]
+      },
+      "furniture": {
+        "F": [ "f_rubble_rock" ]
+      },
+      "place_npcs": [
+                     { "class": "npk_scav", "x": [7, 15], "y": [7, 15]},
+                     { "class": "npk_scav", "x": [7, 15], "y": [7, 15]}
+                ]
+    }
+  },
+  {
+    "id": "mx_NIL_one_friend_scav_encounter",
+    "type": "map_extra",
+    "name": { "str": "Single Friendly Scav Encounter" },
+    "description": "An encounter with a single friendly scav.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_NIL_one_friend_scav_encounter" },
+    "sym": "S",
+    "color": "red"
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_NIL_one_friend_scav_encounter",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        "A": [ "t_dirt" ],
+        ",": [ "t_region_groundcover" ]
+      },
+      "furniture": {
+        "F": [ "f_rubble_rock" ]
+      },
+      "place_npcs": [
+                     { "class": "npk_scav_friendly", "x": [7, 15], "y": [7, 15]}
+                ]
+    }
+  },
+  {
+    "id": "mx_NIL_two_friend_scav_encounter",
+    "type": "map_extra",
+    "name": { "str": "Double Friend Scav Encounter" },
+    "description": "An encounter with a two friendly scavs.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_NIL_two_friend_scav_encounter" },
+    "sym": "S",
+    "color": "red"
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_NIL_two_friend_scav_encounter",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        "A": [ "t_dirt" ],
+        ",": [ "t_region_groundcover" ]
+      },
+      "furniture": {
+        "F": [ "f_rubble_rock" ]
+      },
+      "place_npcs": [
+                     { "class": "npk_scav_friendly", "x": [7, 15], "y": [7, 15]},
+                     { "class": "npk_scav_friendly", "x": [7, 15], "y": [7, 15]}
+                ]
+    }
+  }
+]

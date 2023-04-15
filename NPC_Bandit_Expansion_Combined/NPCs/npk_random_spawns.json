@@ -1,0 +1,27 @@
+[
+    {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "npk_scavspawn",
+        "object": {"mapgensize": [1,1], "place_npcs": [{"class":"npk_scav","x":0,"y":0}]}
+    },
+    {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "npk_militiaspawn",
+        "object": {"mapgensize": [1,1], "place_npcs": [{"class":"npk_militia","x":0,"y":0}]}
+    },
+    {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "npk_natguardspawn",
+        "object": {"mapgensize": [1,1], "place_npcs": [{"class":"npk_natguard","x":0,"y":0}]}
+    },
+    {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "npk_cyberscavspawn",
+        "object": {"mapgensize": [1,1], "place_npcs": [{"class":"npk_cyberscav","x":0,"y":0}]}
+    }
+        
+]

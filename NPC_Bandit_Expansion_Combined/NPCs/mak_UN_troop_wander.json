@@ -1,0 +1,71 @@
+[
+  {
+    "type": "npc",
+    "id": "mak_un_trooper_wander",
+    "name_suffix": "UN Trooper",
+    "//": "If Mission set to 0, then they walk around.",
+    "class": "mak_un_trooper_wander_npc",
+    "attitude": 0,
+    "mission": 0,
+    "chat": "TALK_fo_UN_trooper_start",
+    "faction": "fac_fo_UN"
+  },
+  {
+    "type": "npc_class",
+    "id": "mak_un_trooper_wander_npc",
+    "name": { "str": "UN Trooper" },
+    "job_description": "Is a soldier representing the United Nations Security Detail.",
+    "traits": [ { "group": "NPC_starting_traits" }, { "group": "Hair_Any" } ],
+    "common": false,
+    "bonus_str": { "rng": [ -3, 3 ] },
+    "bonus_dex": { "rng": [ -3, 3 ] },
+    "bonus_int": { "rng": [ -3, 3 ] },
+    "bonus_per": { "rng": [ -3, 3 ] },
+    "worn_override": "NC_UNTROOP_worn",
+    "carry_override": "NC_UNTROOP_carry",
+    "weapon_override": "NC_UNTROOP_weapon",
+    "skills": [
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 0, 1 ] } },
+      { "skill": "unarmed", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "rifle", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "survival", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "gun", "bonus": { "rng": [ 1, 2 ] } }
+    ]
+  },
+  {
+    "type": "npc",
+    "id": "mak_un_sniper_wander",
+    "name_suffix": "UN Sniper",
+    "class": "mak_un_sniper_wander_npc",
+    "attitude": 0,
+    "mission": 0,
+    "chat": "TALK_fo_UN_trooper_start",
+    "faction": "fac_fo_UN"
+  },
+  {
+    "type": "npc_class",
+    "id": "mak_un_sniper_wander_npc",
+    "name": { "str": "UN Sniper" },
+    "job_description": "Is a soldier representing the United Nations Security Detail.",
+    "traits": [ { "group": "NPC_starting_traits" }, { "group": "Hair_Any" } ],
+    "common": false,
+    "bonus_str": { "rng": [ -3, 3 ] },
+    "bonus_dex": { "rng": [ -3, 3 ] },
+    "bonus_int": { "rng": [ -3, 3 ] },
+    "bonus_per": { "rng": [ 0, 4 ] },
+    "worn_override": "NC_UNTROOP_worn",
+    "carry_override": "NC_UNSNIPER_carry",
+    "weapon_override": "NC_UNSNIPER_weapon",
+    "skills": [
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "unarmed", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "rifle", "bonus": { "rng": [ 2, 4 ] } },
+      { "skill": "survival", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "gun", "bonus": { "rng": [ 0, 2 ] } }
+    ]
+  }
+]

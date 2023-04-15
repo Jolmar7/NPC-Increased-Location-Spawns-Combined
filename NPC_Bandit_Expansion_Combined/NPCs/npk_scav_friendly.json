@@ -1,0 +1,89 @@
+[
+  {
+    "type": "npc",
+    "id": "npk_scav_friendly",
+    "name_suffix": "Wanderer",
+    "class": "npk_scav_friendly_npc",
+    "attitude": 0,
+    "mission": 0,
+    "chat": "TALK_FRIENDLY_SCAV"
+  },
+  {
+    "type": "npc_class",
+    "id": "npk_scav_friendly_npc",
+    "name": { "str": "Wanderer" },
+    "job_description": "Is a wanderer.",
+    "traits": [ { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" }, { "trait": "npk_npc_balance_a" } ],
+    "common": false,
+    "bonus_str": { "rng": [ -2, 2 ] },
+    "bonus_dex": { "rng": [ -2, 2 ] },
+    "bonus_int": { "rng": [ -2, 2 ] },
+    "bonus_per": { "rng": [ -2, 1 ] },
+    "weapon_override": "npk_scav_emptyguns",
+    "carry_override": "npk_scav_gunsmelee",
+    "skills": [
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "gun", "bonus": 2 },
+      { "skill": "pistol", "bonus": { "rng": [ 2, 5 ] } },
+      { "skill": "rifle", "bonus": { "rng": [ 2, 4 ] } },
+      { "skill": "shotgun", "bonus": { "rng": [ 2, 4 ] } },
+      { "skill": "archery", "bonus": { "rng": [ 0, 3 ] } }
+    ]
+  },
+  {
+    "id": "TALK_FRIENDLY_SCAV",
+    "type": "talk_topic",
+    "dynamic_line": [
+        "What are you doing, <name_g>?",
+        "Be careful out there, <name_g>?",
+        "Every day is different out here, you never know if you'll make it to tomorrow.",
+        "I heard the fighting between BEAR and USEC is heating up again. Not a good sign.",
+        {
+          "u_has_perception": 10,
+            "yes": "Somebody like you seems like they're perceptive. Probably gives you an edge over scavs in finding rare loot.",
+            "no": "I really wish the UN would leave. Why are they even here?"
+        },
+        {
+          "u_has_strength": 10, "yes": "With muscles like that, I think you could just intimidate most mercs into avoiding conflict.",
+            "no": "Sometimes I fight, sometimes I scavenge, sometimes I run. Life is full of surprises!"
+        },
+        "I heard some people rambling about a place in New England where people spend thirty minutes fiddling with their pockets just find which fork they use to eat dinner with. Can you believe how tedious that would be?",
+        "How is life treating you?",
+        {
+        "u_male": [ "A guy like you seen anything around here recently?", "A guy like you ever see what's in those labs? I've heard it's pretty nightmarish", "<name_g>, interested in buying something?" ],
+        "no": [ "It's somewhat surprising to see a woman out and about like this, it's pretty dangerous out here.", "Ma'am, why are you speaking to me?", "What's up, <name_g>" ]
+      }
+      ],
+    "responses": [
+      {
+        "text": "What are you doing around here?",
+        "topic": "TALK_FRIENDLY_SCAV_INFO"
+      },
+      {
+        "text": "Want to trade?",
+        "effect": "start_trade",
+        "topic": "TALK_FRIENDLY_SCAV"
+      },
+      {
+        "text": "See you later.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "id": "TALK_FRIENDLY_SCAV_INFO",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_female": true,
+      "yes": "I'm just a wanderer, basically. I decided against leaving the New England Exclusion Zone when most people did. Most people think that's a pretty bad decision and they're probably right, but if I strike it rich here then I'll be set for life!",
+      "no": "I'm just a wanderer, basically. I decided against leaving the New England Exclusion Zone when most people did. Most people think that's a pretty bad decision and they're probably right, but if I strike it rich here then I'll be set for life!"},
+    "responses": [
+      {
+        "text": "Got it.",
+        "topic": "TALK_AMGGUN_Town"
+      }
+    ]
+  }
+]

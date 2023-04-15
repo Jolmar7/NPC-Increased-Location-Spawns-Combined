@@ -1,0 +1,523 @@
+[
+  {
+    "type": "faction",
+    "id": "fac_npk_scavfac",
+    "name": "Scavs",
+    "likes_u": -20,
+    "respects_u": -20,
+    "known_by_u": true,
+    "size": 15,
+    "power": 20,
+    "food_supply": 115200,
+    "wealth": 75000,
+    "relations": {
+      "free_merchants": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "old_guard": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": false
+      },
+      "tacoma_commune": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false
+      },
+      "lobby_beggars": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false
+      },
+      "no_faction": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "wasteland_scavengers": {
+        "kill on sight": false,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "hells_raiders": { "kill on sight": true },
+      "fac_npk_militiafac": { "kill on sight": true },
+      "marloss": { "kill on sight": true },
+      "fac_npk_natguardfac": { "kill on sight": true }
+    },
+    "description": "The scavs are a salvage-oriented faction that was founded shortly after the Cataclysm. They generally shoot first and ask questions later."
+  },
+  {
+    "type": "faction",
+    "id": "fac_npk_militiafac",
+    "name": "Militia",
+    "likes_u": -20,
+    "respects_u": -20,
+    "known_by_u": true,
+    "size": 15,
+    "power": 20,
+    "food_supply": 115200,
+    "wealth": 75000,
+    "relations": {
+      "free_merchants": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "old_guard": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": false
+      },
+      "tacoma_commune": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false
+      },
+      "lobby_beggars": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false
+      },
+      "no_faction": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "wasteland_scavengers": {
+        "kill on sight": false,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "hells_raiders": { "kill on sight": true },
+      "marloss": { "kill on sight": true },
+      "fac_npk_scavfac": { "kill on sight": true },
+      "fac_npk_natguardfac": { "kill on sight": true }
+    },
+    "description": "A variety of militias local to the New England era, some of which date back originally to decades before the collapse of New England into its now anarchic state. They generally dislike all outsiders."
+  },
+  {
+    "type": "faction",
+    "id": "fac_npk_natguardfac",
+    "name": "National Guard",
+    "likes_u": -50,
+    "respects_u": -50,
+    "known_by_u": true,
+    "size": 15,
+    "power": 20,
+    "food_supply": 115200,
+    "wealth": 75000,
+    "relations": {
+      "free_merchants": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "old_guard": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": false
+      },
+      "tacoma_commune": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false
+      },
+      "lobby_beggars": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false
+      },
+      "no_faction": {
+        "kill on sight": true,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "wasteland_scavengers": {
+        "kill on sight": false,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "hells_raiders": { "kill on sight": true },
+      "marloss": { "kill on sight": true },
+      "fac_npk_scavfac": { "kill on sight": true },
+      "fac_npk_militiafac": { "kill on sight": true }
+    },
+    "description": "Remnants of the New England National Guard that decided not to leave when the order was given. They've since lost all since of charity and public service, and shoot without remorse those who encroach upon government property."
+  },
+  {
+    "type": "faction",
+    "id": "fac_fo_UN",
+    "name": "United Nations Security Forces",
+    "likes_u": -25,
+    "respects_u": -25,
+    "known_by_u": true,
+    "size": 15,
+    "power": 20,
+    "food_supply": 115200,
+    "wealth": 75000,
+    "relations": {
+      "free_merchants": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "old_guard": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": false
+      },
+      "tacoma_commune": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false
+      },
+      "lobby_beggars": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false
+      },
+      "no_faction": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "wasteland_scavengers": {
+        "kill on sight": false,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "hells_raiders": { "kill on sight": true },
+      "fac_fo_redneck": { "kill on sight": true },
+      "fac_fo_hostilesurv": { "kill on sight": true },
+      "fac_fo_friendlysurv": { "kill on sight": true },
+      "fac_fo_USEC": { "kill on sight": true },
+      "fac_fo_BEAR": { "kill on sight": true },
+      "marloss": { "kill on sight": true },
+      "fac_npk_scavfac": {
+        "kill on sight": true,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "fac_npk_militiafac": {
+        "kill on sight": true,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      }
+    },
+    "description": "Representatives of the United Nations who were sent to the New England Exclusion zone as 'peacekeepers' by institutional forces difficult to identify. Despite their moniker as peacekeepers, they are often very violent towards anybody that comes across their field of view, killing them on the spot."
+  },
+  {
+    "type": "faction",
+    "id": "fac_fo_USEC",
+    "name": "USEC",
+    "likes_u": -25,
+    "respects_u": -25,
+    "known_by_u": true,
+    "size": 15,
+    "power": 20,
+    "food_supply": 115200,
+    "wealth": 75000,
+    "relations": {
+      "free_merchants": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "old_guard": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": false
+      },
+      "tacoma_commune": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false
+      },
+      "lobby_beggars": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false
+      },
+      "no_faction": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "wasteland_scavengers": {
+        "kill on sight": false,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "hells_raiders": { "kill on sight": true },
+      "fac_fo_redneck": { "kill on sight": true },
+      "fac_fo_hostilesurv": { "kill on sight": true },
+      "fac_fo_friendlysurv": { "kill on sight": true },
+      "marloss": { "kill on sight": true },
+      "fac_fo_BEAR": {
+        "kill on sight": true,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "fac_fo_UN": {
+        "kill on sight": true,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "fac_npk_scavfac": {
+        "kill on sight": true,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "fac_npk_militiafac": {
+        "kill on sight": true,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      }
+    },
+    "description": "USEC, or United Security, is a private military contractor that has been deployed to the New England Exclusion zone to defend or secure the financial interests of unknown parties. Their primary enemies are the similarly famous BEAR mercenaries."
+  },
+  {
+    "type": "faction",
+    "id": "fac_fo_BEAR",
+    "name": "BEAR",
+    "likes_u": -25,
+    "respects_u": -25,
+    "known_by_u": true,
+    "size": 15,
+    "power": 20,
+    "food_supply": 115200,
+    "wealth": 75000,
+    "relations": {
+      "free_merchants": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "old_guard": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": false
+      },
+      "tacoma_commune": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false
+      },
+      "lobby_beggars": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false
+      },
+      "no_faction": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "wasteland_scavengers": {
+        "kill on sight": false,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "hells_raiders": { "kill on sight": true },
+      "fac_fo_redneck": { "kill on sight": true },
+      "fac_fo_hostilesurv": { "kill on sight": true },
+      "fac_fo_friendlysurv": { "kill on sight": true },
+      "marloss": { "kill on sight": true },
+      "fac_fo_USEC": {
+        "kill on sight": true,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "fac_fo_UN": {
+        "kill on sight": true,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "fac_npk_scavfac": {
+        "kill on sight": true,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "fac_npk_militiafac": {
+        "kill on sight": true,
+        "watch your back": true,
+        "share my stuff": false,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      }
+    },
+    "description": "BEAR, or Battle Encounter Assault Regiment, is a private military contractor that has been deployed to the New England Exclusion zone to defend or secure the financial interests of unknown parties. Their primary enemies are the similarly famous USEC mercenaries. Primarily recruited from Russia and various post-soviet states."
+  }
+]

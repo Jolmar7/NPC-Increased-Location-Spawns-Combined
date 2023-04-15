@@ -1,0 +1,57 @@
+[
+    {
+    "id": "mx_NIL_UN_encounter",
+    "type": "map_extra",
+    "name": { "str": "UN Patrol Point" },
+    "description": "A group of UN Peacekeepers.",
+    "generator": { "generator_method": "update_mapgen", "generator_id": "mx_NIL_UN_encounter" },
+    "sym": "S",
+    "color": "red"
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_NIL_UN_encounter",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        "A": [ "t_dirt" ],
+        ",": [ "t_region_groundcover" ]
+      },
+      "furniture": {
+        "F": [ "f_rubble_rock" ]
+      },
+      "place_npcs": [
+                     { "class": "mak_un_trooper_wander", "x": 7, "y": 6},
+                     { "class": "mak_un_trooper_wander", "x": 14, "y": 6},
+                     { "class": "mak_un_trooper_wander", "x": 8, "y": 14},
+                     { "class": "mak_un_sniper_wander", "x": 7, "y": 17}
+                ]
+    }
+  }
+]

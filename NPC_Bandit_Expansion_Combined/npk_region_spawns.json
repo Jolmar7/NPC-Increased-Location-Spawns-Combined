@@ -1,0 +1,40 @@
+[
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+    "map_extras": {
+      "build": {
+        "chance": 12,
+        "extras": {
+          "mx_house_spider": 40,
+          "mx_house_wasp": 60,
+          "mx_military": 5,
+          "mx_science": 12,
+          "mx_collegekids": 15,
+          "mx_portal": 5,
+          "mx_crater": 60,
+          "mx_portal_in": 3,
+          "mx_point_burned_ground": 5,
+          "mx_casings": 30,
+          "mx_looters": 10,
+          "mx_corpses": 30,
+          "mx_NIL_one_friend_scav_encounter": 65,
+          "mx_NIL_two_friend_scav_encounter": 85,
+          "mx_NIL_one_scav_encounter": 200,
+          "mx_NIL_two_scav_encounter": 200,
+          "mx_NIL_lonebandit_encounter": 45,
+          "mx_NIL_twobandit_encounter": 75,
+          "mx_bandits_ambush": 140,
+          "mx_bandits_hideout": 150,
+          "mx_NIL_bear_encounter": 75,
+          "mx_NIL_usec_bear_encounter": 75,
+          "mx_NIL_usec_encounter": 75,
+          "mx_NIL_UN_encounter": 75,
+          "mx_NIL_natguard_encounter": 25
+        }
+      }
+    }
+  }
+
+
+]
